@@ -1,0 +1,67 @@
+.container-alunos {
+    background-color: #1B1B1B; 
+    color: #F1F1F1; 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-alunos h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #F1F1F1;
+    padding-bottom: 10px;
+}
+
+.aluno-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.aluno-list li {
+    background-color: #2B2B2B;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+.aluno-list li:hover {
+    transform: scale(1.02);
+    background-color: #333;
+}
+
+.aluno-list p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.aluno-list p strong {
+    color: #ececec; /* Destaque no texto */
+}
+
+.button-add-alunos {
+    display: inline-block;
+    background-color: #e0e0e083; /* Cor de destaque */
+    color: #1B1B1B;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button-add-alunos:hover {
+    background-color: #193da1;
+    color: #FFFFFF;
+}

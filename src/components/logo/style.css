@@ -1,0 +1,21 @@
+.logo {
+   display: flex;
+   align-items: center; 
+   font-size: 30px;
+}
+
+.logo-img {
+   margin-right: 10px;
+   max-width: 500px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+}
+
+.logo-text {
+   padding-top: 5px; 
+   font-size: 18px; 
+}
+
+.logo-link {
+   text-decoration: none; 
+   color: #333; 
+}
+
